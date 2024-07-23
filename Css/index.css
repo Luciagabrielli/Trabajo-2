@@ -1,130 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
+header{
+    background-color: rgb(95, 91, 91); 
 }
-ul li{
-    list-style-type: none;
-}
+
 body{
-    font-family:  "Montserrat", sans-serif;
-    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif; 
 }
-/*seccion navegación*/
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 100px 0 40px;
-}
-.nav_ul{
-    margin: 0;
-    display: flex;
-}
-.nav_item{
-    list-style: none;
-}
-.nav_link{
-    color: #3f2b96;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-
-}
-.nav_link:hover{
-    background-color: #7d75a1;
-    border-radius: 20px;
-}
-.link--login{
-    text-transform: uppercase;
-    background-color:#3f2b96;
-    color: #fff;
-    border-radius: 20px;
-}
-.link--login:hover{
-    background-color: #7d75a1;
-}
-h1{
-    font-size: 20px;
-}
-
 
 #tituloPrincipal{
+    font-size: 50px;
     color:rgb(245, 245, 220);
     background-color: rgb(182, 179, 179); 
 }
 
-
-/*sección sobre nosotras*/
-sobre_nosotros{
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(143, 92, 200, 1) 100%);
-    text-align: center;
-    margin: 25px;
-    border-radius: 10px;
+.info {
+    background-color: rgb(245, 245, 220);
 }
 
-.seccion_empleo{
-    
+.unirse {
+    background-color: rgb(240, 240, 212);
 }
 
+.cont {
+    background-color: rgb(224, 224, 214);
+}
 
+.sobrenos {
+    background-color: rgb(240, 240, 212);
+}
 
+.empleo {
+    background-color: rgb(240, 240, 212);
+}
 
-
-
-.sobre_nosotros{
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(143, 92, 200, 1) 100%);
-    text-align: center;
-    margin: 25px;
-    border-radius: 10px;
+.rec {
+    background-color: rgb(240, 240, 212);
 }
 
 .img {
     width: 300px;
     height: auto;
-}
-
-h3{
-
-    color: #eee;
-    margin: 0;
-    margin-bottom: 10px;
-}
-form{
-    justify-content: center;
-    background-color: transparent;
-    padding: 20px 0;
-    max-width: 600px;
-    margin: auto;
-    box-shadow: 0px 0px 55px #000;
-    border-radius: 8px;
-
-}
-
-.form_input{
-    padding: 6px 20px;
-}
-input{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 6px 12px;
-    border: none;
-    border: 1px solid #666;
-    box-shadow: 0px 0px 15px #0006 ;
-    background-color: transparent;
-    border-radius: 4px;
-    color: #eee;
-
-}
-/*pie de página*/
-
-footer{
-    background-color: rgb(36, 47, 87);
-    text-align: center;
-}
-.contacto{
-    background-color:#334CFF;
-    border-radius: 10px;
-    margin: 25px;
-
 }
