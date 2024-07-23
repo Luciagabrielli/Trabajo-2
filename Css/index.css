@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(95, 91, 91); 
+}
+
+body{
+    background-color: rgb(255, 255, 255); 
+}
+
+#tituloPrincipal{
+    font-size: 50px;
+    color:rgb(245, 245, 220);
+    background-color: rgb(182, 179, 179); 
+}
+
+.info {
+    background-color: rgb(245, 245, 220);
+}
+
+.unirse {
+    background-color: rgb(240, 240, 212);
+}
+
+.cont {
+    background-color: rgb(224, 224, 214);
+}
+
+.sobrenos {
+    background-color: rgb(240, 240, 212);
+}
+
+.empleo {
+    background-color: rgb(240, 240, 212);
+}
+
+.rec {
+    background-color: rgb(240, 240, 212);
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
