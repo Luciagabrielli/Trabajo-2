@@ -6,36 +6,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Anexo con Css-->
-  <link rel="stylesheet" href="../VSC/Css/index.css">
+  <link rel="stylesheet" href="Css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <header>
-    <h1 id="tituloPrincipal">EmpleoJoven: Plataforma de Conexión para Jóvenes y Empresas</h1>
-    <div class="info">
-          <ul>
-              <li><a href="#SobreNos">Sobre Nosotros</a></li>
-              <li><a href="#Empleo">Empleos</a></li>
-              <li><a href="#Recurso">Recursos</a></li>
-              <li><a href="#Unirse">Unite</a></li>
-              <li><a href="#Cont">Contacto</a></li>
-          </ul>
-    </div>    
+  
+  <header class="header">
+    
+    <nav>
+      <h1 id="tituloPrincipal">EmpleoJoven</h1>
+            <ul class="nav_ul">
+                <li class="nav_item"><a href="#SobreNos"class="nav_link" >Sobre Nosotros</a></li>
+                <li class="nav_item"><a href="#Empleo"  class="nav_link" >Empleos</a></li>
+                <li class="nav_item"><a href="#Recurso" class="nav_link" >Recursos</a></li>
+                <li class="nav_item"><a href="#Cont"    class="nav_link" >Contacto</a></li>
+                <li class="nav_item"><a href="#Unirse" class="nav_link link--login">Unirte</a></li>
+            </ul>
+          </nav>
+          
   </header>
 
   <main>
     <section id="SobreNos"> <!--ID para navegar por la paxina al tocar el titulo-->
-      <div class="sobrenos">
+      <div class="sobre_nosotros">
           <h2>Sobre Nosotros</h2>
-      </div>
+        <img src="../img/hero-frame-perfil.jpg" alt="">
           <p>Somos una plataforma de conexión para jóvenes y empresas. Nuestro objetivo es ayudar a jóvenes
             sin experiencia a encontrar su primer empleo, informar a los adolescentes sobre las oportunidades
             laborales disponibles, y facilitar el encuentro entre empresas que buscan contratar jóvenes y los
             candidatos adecuados.</p>
             <img src="https://previews.123rf.com/images/vadimgozhda/vadimgozhda1506/vadimgozhda150604038/41752998-grupo-de-trabajadores-de-oficina-elegantes-mujeres-de-pie-en-l%C3%ADnea-y-sonriendo-a-la-c%C3%A1mara.jpg" alt="Sobre Nosotros" class="img">  
-  </section>
+            
+            <img src="../img/hero-frame-resume.jpg" alt="">
+          </div>
+          </section>
 
-  <section id="Empleo">
+  <section class="seccion_empleo" id="Empleo">
     <div class="empleo"> <!--Class para CSS y solo modificar lo que esta entre <div>-->
           <h2>Oportunidades de Empleo</h2>
     </div>
@@ -57,7 +67,7 @@
           <a href="https://www.micvideal.es/wp-content/uploads/sites/2/2024/03/como-hacer-un-cv-de-monitor-de-gimnasio.svg" target="_blank">Modelo de Currículum Vitae</a> <br>
   </section>
 
-  <section id="Unirse">
+  <section class="sobre_nosotros" id="Unirse">
     <div class="unirse">
           <h2>Unite a Nosotros</h2>
           <p>Si cumplís con los siguientes requisitos, ¡únite a nuestra plataforma para encontrar tu primer empleo!</p>
@@ -67,11 +77,12 @@
               <li>Tenes motivación para aprender y desarrollarte profesionalmente</li>
           </ul>
 
-          <h3>Formulario de Registro</h3>
+          
           <form> <!--Ingresar datos mostrando que hay que poner, sin label-->
-            <input type="text" placeholder="Nombre Completo:"> <br><br> 
-            <input type="text" placeholder="Email:"> <br><br>
-            <input type="number" placeholder="Edad:"> <br><br>
+            <h3>Formulario de Registro</h3>
+            <input class="form_input" type="text" placeholder="Nombre Completo:"> <br><br> 
+            <input class="form_input type="text" placeholder="Email:"> <br><br>
+            <input class="form_input type="number" placeholder="Edad:"> <br><br>
             <label for="text"> Motivación para unirte:</label><br>
             <textarea> </textarea> <br>
             <input type="submit"> <!--Boton que guarda la info ingresada-->
@@ -80,8 +91,8 @@
   </section>
   </main>
 
-<footer>
-        <section id="Cont">
+
+        <section class="contacto" id="Cont">
           <div class="cont">
             <h2>Contacto</h2>
             <p>Para más información, contactanos a través de:</p>
@@ -93,8 +104,11 @@
             </ul>
           </div>
         </section>
-        <p> © CET 2024 | Proyecto realizado por Grupo 10.</p>
-</footer>
+        <footer>
+          <p> © CET 2024 | Proyecto realizado por Grupo 10.</p>
+        </footer>
+    
+
     
 </body>
 </html>
