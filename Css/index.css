@@ -21,6 +21,8 @@ nav{
 }
 .nav_item{
     list-style: none;
+    font-weight: bold;
+    font-size: 17px;
 }
 .nav_link{
     color: #3f2b96;
@@ -43,15 +45,15 @@ nav{
     background-color: #7d75a1;
 }
 h1{
+    background-color: #000;
     font-size: 20px;
+    color: #ffa6bf;
+    padding: 10px;
+    border-radius:5px;
 }
-
-
-#tituloPrincipal{
-    color:rgb(245, 245, 220);
-    background-color: rgb(182, 179, 179); 
+span{
+    color: #ffed95;
 }
-
 
 /*sección sobre nosotras*/
 sobre_nosotros{
@@ -65,11 +67,6 @@ sobre_nosotros{
 .seccion_empleo{
     
 }
-
-
-
-
-
 
 .sobre_nosotros{
     background: rgb(238, 174, 202);
