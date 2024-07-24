@@ -1,3 +1,5 @@
+header{
+    background-color: rgb(95, 91, 91); 
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,9 @@
 ul li{
     list-style-type: none;
 }
+
 body{
+    background-color: rgb(255, 255, 255); 
     font-family:  "Montserrat", sans-serif;
     text-align: center;
 }
@@ -51,10 +55,27 @@ h1{
     padding: 10px;
     border-radius:5px;
 }
+<<<<<<< HEAD
 span{
     color: #ffed95;
 }
 
+=======
+
+
+#tituloPrincipal{
+    font-size: 50px;
+    color:rgb(245, 245, 220);
+    background-color: rgb(182, 179, 179); 
+}
+
+.info {
+    background-color: rgb(245, 245, 220);
+}
+
+.unirse {
+    background-color: rgb(240, 240, 212);
+>>>>>>> b71dfdd57c561f424f1fe7e5ce2c9bada159e64e
 /*sección sobre nosotras*/
 sobre_nosotros{
     background: rgb(238, 174, 202);
@@ -64,10 +85,28 @@ sobre_nosotros{
     border-radius: 10px;
 }
 
+.cont {
+    background-color: rgb(224, 224, 214);
 .seccion_empleo{
-    
+
 }
 
+<<<<<<< HEAD
+=======
+.sobrenos {
+    background-color: rgb(240, 240, 212);
+}
+
+.empleo {
+    background-color: rgb(240, 240, 212);
+}
+
+.rec {
+    background-color: rgb(240, 240, 212);
+
+
+
+>>>>>>> b71dfdd57c561f424f1fe7e5ce2c9bada159e64e
 .sobre_nosotros{
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(143, 92, 200, 1) 100%);
