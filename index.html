@@ -1,114 +1,100 @@
 <!DOCTYPE html>
-<html lang="e">
-    
+<html lang="es">
+
 <head>
   <title>EmpleoJoven</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--Anexo con Css-->
-  <link rel="stylesheet" href="Css/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="Updated_Final.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-  <header class="header">
-    
-    <nav>
-      <h1 id="tituloPrincipal">empleo<span>JOVEN</span></h1>
-            <ul class="nav_ul">
-                <li class="nav_item"><a href="#SobreNos"class="nav_link" >Sobre Nosotros</a></li>
-                <li class="nav_item"><a href="#Empleo"  class="nav_link" >Empleos</a></li>
-                <li class="nav_item"><a href="#Recurso" class="nav_link" >Recursos</a></li>
-                <li class="nav_item"><a href="#Cont"    class="nav_link" >Contacto</a></li>
-                <li class="nav_item"><a href="#Unirse" class="nav_link link--login">Unirte</a></li>
-            </ul>
-          </nav>
-          
+  <header>
+    <nav id="navbar"> <!--moverse entre diferentes secciones de la página-->
+      <h1 id="tituloPrincipal">empleo<span>JOVEN</span></h1> <!--span aplica estile solo a lo que encierra (JOVEN)-->
+      <ul class="nav_ul">
+        <li><a href="#SobreNos" class="nav_link">Sobre Nosotros</a></li>
+        <li><a href="#Empleo" class="nav_link">Empleos</a></li>
+        <li><a href="#Recurso" class="nav_link">Recursos</a></li>
+        <li><a href="#Cont" class="nav_link">Contacto</a></li>
+        <li><a href="#Unirse" class="nav_link link-login">Unirte</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section id="SobreNos"> <!--ID para navegar por la paxina al tocar el titulo-->
-      <div class="sobre_nosotros">
-          <h2>Sobre Nosotros</h2>
-        <img src="../img/hero-frame-perfil.jpg" alt="">
-          <p>Somos una plataforma de conexión para jóvenes y empresas. Nuestro objetivo es ayudar a jóvenes
-            sin experiencia a encontrar su primer empleo, informar a los adolescentes sobre las oportunidades
-            laborales disponibles, y facilitar el encuentro entre empresas que buscan contratar jóvenes y los
-            candidatos adecuados.</p>
-            <img src="https://previews.123rf.com/images/vadimgozhda/vadimgozhda1506/vadimgozhda150604038/41752998-grupo-de-trabajadores-de-oficina-elegantes-mujeres-de-pie-en-l%C3%ADnea-y-sonriendo-a-la-c%C3%A1mara.jpg" alt="Sobre Nosotros" class="img">  
-            
-            <img src="../img/hero-frame-resume.jpg" alt="">
-          </div>
-          </section>
+    <section id="SobreNos" class="sobre_nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una plataforma de conexión para jóvenes y empresas. Nuestro objetivo es ayudar a jóvenes sin experiencia
+        a encontrar su primer empleo, informar a los adolescentes sobre las oportunidades laborales disponibles, y
+        facilitar el encuentro entre empresas que buscan contratar jóvenes y los candidatos adecuados.</p>
+      <img src="https://previews.123rf.com/images/vadimgozhda/vadimgozhda1506/vadimgozhda150604038/41752998-grupo-de-trabajadores-de-oficina-elegantes-mujeres-de-pie-en-l%C3%ADnea-y-sonriendo-a-la-c%C3%A1mara.jpg"
+        alt="Sobre Nosotros" class="img">
+    </section>
 
-  <section class="seccion_empleo" id="Empleo">
-    <div class="empleo"> <!--Class para CSS y solo modificar lo que esta entre <div>-->
-          <h2>Oportunidades de Empleo</h2>
-    </div>
-          <p>Descubrí las oportunidades laborales disponibles para jóvenes de entre 15 y 20 años:</p>
-          <ul>
-              <li>Programas de pasantías</li>
-              <li>Aprendizajes</li>
-              <li>Trabajos temporales</li>
-          </ul>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hGQam9NqE3s?si=u0UG2qyCPUbAcUhN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </section>
+    <section id="Empleo" class="seccion_empleo">
+      <h2>Oportunidades de Empleo</h2>
+      <p>Descubrí las oportunidades laborales disponibles para jóvenes de entre 15 y 20 años:</p>
+      <ul>
+        <li>Programas de pasantías</li>
+        <li>Aprendizajes</li>
+        <li>Trabajos temporales</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hGQam9NqE3s"
+        title="YouTube video player" frameborder="0" 
+        allowfullscreen></iframe>
+    </section>
 
-  <section id="Recurso">
-    <div class="rec">
-          <h2>Recursos</h2>
-    </div>
-          <p>Proveemos recursos para mejorar la preparación de los jóvenes en la creación de currículums y entrevistas. Ofrecemos asesoramiento y capacitación para ayudar en la búsqueda de empleo.</p>
-          <h5>Te dejamos uno de ejemplo a continuacion:</h5>
-          <a href="https://www.micvideal.es/wp-content/uploads/sites/2/2024/03/como-hacer-un-cv-de-monitor-de-gimnasio.svg" target="_blank">Modelo de Currículum Vitae</a> <br>
-  </section>
+    <section id="Recurso" class="recursos">
+      <h2>Recursos</h2>
+      <p>Proveemos recursos para mejorar la preparación de los jóvenes en la creación de currículums y entrevistas.
+        Ofrecemos asesoramiento y capacitación para ayudar en la búsqueda de empleo.</p>
+      <h5>Te dejamos uno de ejemplo a continuación:</h5>
+      <a href="https://www.micvideal.es/wp-content/uploads/sites/2/2024/03/como-hacer-un-cv-de-monitor-de-gimnasio.svg"
+        target="_blank">Modelo de Currículum Vitae</a>
+    </section>
 
-  <section class="sobre_nosotros" id="Unirse">
-    <div class="unirse">
-          <h2>Unite a Nosotros</h2>
-          <p>Si cumplís con los siguientes requisitos, ¡únite a nuestra plataforma para encontrar tu primer empleo!</p>
-          <ul>
-              <li>Tenes entre 15 y 20 años</li>
-              <li>Estas buscando tu primer empleo</li>
-              <li>Tenes motivación para aprender y desarrollarte profesionalmente</li>
-          </ul>
+    <section id="Unirse" class="unirse">
+      <h2>Unite a Nosotros</h2>
+      <p>Si cumplís con los siguientes requisitos, ¡unite a nuestra plataforma para encontrar tu primer empleo!</p>
+      <ul>
+        <li>Tenes entre 15 y 20 años</li>
+        <li>Estas buscando tu primer empleo</li>
+        <li>Tenes motivación para aprender y desarrollarte profesionalmente</li>
+      </ul>
 
-          
-          <form> <!--Ingresar datos mostrando que hay que poner, sin label-->
-            <h3>Formulario de Registro</h3>
-            <input class="form_input" type="text" placeholder="Nombre Completo:"> <br><br> 
-            <input class="form_input type="text" placeholder="Email:"> <br><br>
-            <input class="form_input type="number" placeholder="Edad:"> <br><br>
-            <label for="text"> Motivación para unirte:</label><br>
-            <textarea> </textarea> <br>
-            <input type="submit"> <!--Boton que guarda la info ingresada-->
-          </form>
-    </div>
-  </section>
+      <form id="registroForm">
+        <h3>Formulario de Registro</h3>
+        <label for="nombre">Nombre Completo:</label>
+        <input id="nombre" class="form_input" type="text" placeholder="Nombre Completo"><br><br>
+        <label for="email">Email:</label>
+        <input id="email" class="form_input" type="email" placeholder="Email"><br><br>
+        <label for="edad">Edad:</label>
+        <input id="edad" class="form_input" type="number" placeholder="Edad"><br><br>
+        <label for="motivacion">Motivación para unirte:</label><br>
+        <textarea id="motivacion" class="form_input" rows="4" placeholder="Escribe aquí tu motivación"></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+
+    <section id="Cont" class="contacto">
+      <h2>Contacto</h2>
+      <p>Para más información, contactanos a través de:</p>
+      <ul>
+        <li>Email: info@primerempleo.com</li>
+        <li>Teléfono: +54 11 2345 6789</li>
+        <li>Dirección: El Salvador 5218, Ciudad Autónoma de Buenos Aires, Argentina</li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.871315434548!2d-58.4322028!3d-34.5860057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58ed9532093%3A0x357a9ecb56bdbfc9!2sAreaTres%20El%20Salvador!5e0!3m2!1ses-419!2sar!4v1721632988391!5m2!1ses-419!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
   </main>
 
+  <footer>
+    <p>© CET 2024 | Proyecto realizado por Grupo 10.</p>
+  </footer>
 
-        <section class="contacto" id="Cont">
-          <div class="cont">
-            <h2>Contacto</h2>
-            <p>Para más información, contactanos a través de:</p>
-            <ul>
-                <li>Email: info@primerempleo.com</li>
-                <li>Teléfono: +54 11 2345 6789</li>
-                <li>Dirección: El Salvador 5218, Ciudad Autónoma de Buenos Aires, Argentina</li>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.871315434548!2d-58.4322028!3d-34.5860057!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb58ed9532093%3A0x357a9ecb56bdbfc9!2sAreaTres%20El%20Salvador!5e0!3m2!1ses-419!2sar!4v1721632988391!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </ul>
-          </div>
-        </section>
-        <footer>
-          <p> © CET 2024 | Proyecto realizado por Grupo 10.</p>
-        </footer>
-    
-
-    
 </body>
+
 </html>
